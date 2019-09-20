@@ -1,6 +1,8 @@
 # UI Component Architecture
 The purpose of this architecture is to allow for reuse of layouts and front-end logic while enabling dynamic navigation between UI components.  It allows you to write a single function that takes in an identifier for a type of UI component and produces an instance of that component that can then be displayed.  This makes it possible to entirely separate navigation logic from view logic.  You could, for example, write a finite state machine to describe your navigation flow and use its output to instantiate the appropriate UI component in response to any event.
 
+For the example code posted here, I wrote a skeleton implementation in the context of a program for placing an order at McDonald's
+
 Earlier this year, I gave a talk about this architecture at ASICS Digital, Inc.  It describes the problem that I initially ran into and the concepts behind what I came up with.  Note that a lot of the examples are based on the Runkeeper app, which I worked on during my last job.  Here's a rough transcript of that talk that I wrote out beforehand.
 
 
