@@ -39,4 +39,4 @@ So, how do we create components dynamically?  Well, there’s a well-known patte
 To illustrate this with a minimal example, I wrote an outline for part of a question flow that allows users to place an order at McDonald’s.
 
 
-(In the actual talk, I did a brief code walk.  The code posted here has some comments that serve as a rough explanation of the pieces, similar to what I discussed when presenting it.  Hopefully this has been a helpful introduction!)
+(In the actual talk, I did a brief code walk.  The code posted here has some comments that provide a rough explanation of the pieces I discussed.  Hopefully this has been a helpful introduction!)
